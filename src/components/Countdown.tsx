@@ -1,12 +1,15 @@
-import { useState,useEffect } from "react";
+import { useState, useEffect, useContext } from "react";
+import { ChallengesContext } from "../contexts/ChallengesContext";
 import styles from "../styles/components/Countdown.module.css";
 
 let countdownTimeout: NodeJS.Timeout;
 
 export function Countdown() {
+  const { startNewChallenge } = useContext(ChallengesContext);
+ 
   const [time, setTime] = useState(0.1 * 60);
   const [isActive, setIsActive] = useState(false);
-  const [hasFinished,setHasFinished] = useState(false)
+  const [hasFinished, setHasFinished] = useState(false);
 
   const minutes = Math.floor(time / 60);
   const seconds = time % 60;
@@ -32,8 +35,9 @@ export function Countdown() {
         setTime(time - 1);
       }, 1000);
     } else if (isActive && time === 0) {
-      setHasFinished(true)
+      setHasFinished(true);
       setIsActive(false);
+   startNewChallenge();
     }
   }, [isActive, time]);
   //  1.O que eu quero executar uma função que o(nome do parametro mudar),2.Quando eu quero executar
