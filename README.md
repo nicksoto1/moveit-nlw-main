@@ -56,7 +56,7 @@ $ npm install
 
 # Iniciar o projeto
 ```bash
-$ npm dev
+$ npm run dev
 ```
 
 
