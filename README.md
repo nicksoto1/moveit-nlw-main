@@ -6,8 +6,8 @@
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-licença">Licença</a>
+  <a href="#-como-executar">Como executar</a>&nbsp;&nbsp;&nbsp;
+  
 </p>
 
 <p align="center">
@@ -40,16 +40,36 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🚀 Como executar
 
-- Clone o repositório
-- Instale as dependências com `yarn`
-- Inicie o servidor com `yarn dev`
+# Clonar o repositorio
+```bash
+$ git clone https://github.com/nicksoto1/moveit-nlw-main.git
+```
+# Acessar o repertório 
+```bash
+$ cd moveit-nlw-main
+```
+
+# Instalar as dependências
+```bash
+$ npm install
+```
+
+# Iniciar o projeto
+```bash
+$ npm dev
+```
+
 
 Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
 
-## 📄 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
-
----
 
 Feito com ♥ by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+
+## ✒️ Author
+
+<a href="https://github.com/nicksoto1">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/67668995?v=4" width="100px;" alt="Michael Soto"/>
+ <br />
+ <sub><b>Michael Soto</b></sub></a> <a href="https://github.com/nicksoto1">🚀</a>
+ <br />
