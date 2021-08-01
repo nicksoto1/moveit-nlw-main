@@ -40,21 +40,21 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 ## 🚀 Como executar
 
-# Clonar o repositorio
+ Clonar o repositorio:
 ```bash
 $ git clone https://github.com/nicksoto1/moveit-nlw-main.git
 ```
-# Acessar o repertório 
+Acessar o repertório:
 ```bash
 $ cd moveit-nlw-main
 ```
 
-# Instalar as dependências
+ Instalar as dependências:
 ```bash
 $ npm install
 ```
 
-# Iniciar o projeto
+ Iniciar o projeto:
 ```bash
 $ npm run dev
 ```
@@ -64,7 +64,7 @@ Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navega
 
 
 
-Feito com ♥ by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Feito com 💙 by Rocketseat �  https://www.youtube.com/watch?v=JP3eYU137t8&t=630s&ab_channel=DevSamurai
 
 ## ✒️ Author
 
